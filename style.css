@@ -1,0 +1,116 @@
+body{
+    background-color: #004B93;
+}
+
+.banner-section{
+    background-image: url(images/banaer-image.jpeg);
+    
+    background-size: cover;
+    background-blend-mode: unset;
+}
+.overlay {
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(0, 35, 82, 0.7);
+    z-index:999
+  }
+
+.banner-text{
+    width: 50%;
+    margin: auto;
+}
+.banner-text h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.banner-text h1 span{
+    color: #A00042;
+}
+.banner-text p{
+    font-size: 20px ;
+}
+.card img {
+    object-fit: cover;
+    height: 250px;
+}
+.player-name {
+    font-size: 22px;
+}
+
+.slect-player-bg, footer{
+    background-color: #A00042;
+}
+td {
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+footer img{
+    width: 150px;
+}
+.social ul > li{
+    list-style: none;
+}
+.social ul > li > a{
+    color: white;
+    font-size: 25px;
+}
+
+.btn {
+    background-color: #004B93 !important;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .banner-text{
+        width: 90%
+    }
+    .banner-text h1 {
+        font-size: 30px;
+    }
+ }
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .banner-text {
+        width: 80%;
+    }
+    .banner-text h1 {
+        font-size: 35px;
+    }
+ }
+
+
+
+ /* Large devices (desktops, 992px and up) */
+ @media (max-width: 992px) { 
+    .banner-text {
+        width: 70%;
+    }
+    .banner-text h1 {
+        font-size: 45px;
+    }
+ }
+
+
+ /* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .banner-text{
+        width: 70%;
+    }
+    .banner-text h1 {
+        font-size: 55px;
+    }
+ }
+
+
+

@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select for FC Barcelona</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+    <!-- FONT AWESOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- CUSTOM CSS  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- BANNER SECTION START  -->
+    <section class="banner-section mb-5 ">
+        <div class="container-fluid overlay d-flex flex-column justify-content-center align-items-center text-center">
+            <div class="m-auto banner-text">
+                <h1 class="text-white fw-bold">Select Five Players for new barcelona <span>team 2023</span></h1>
+                <p class="text-white">we are taking vote from our supporter to create our new FC Barcelona Team 2023 and we are creating a draw for our voting supporter after they vote we will give a free match ticket our winner support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLAYER SECTION  -->
+    <section class="py-5 py-sm-3">
+        <div class="container">
+            <div class="row g-5 g-md-4 g-xl-5 g-xxl-5">
+
+                <!-- SECLECT PLAYERS AREA  -->
+                <div class="col-9 col-sm-12 col-md-8 col-lg-9">
+                    <div class="row">
+
+                        <!-- PLAYERS 1 -->
+                        <div class="col-4 col-md-6 col-sm-6 mb-5 col-lg-4 col-md-4">
+                            <div class="card text-center shadow-lg border-0">
+                                <img src="images/Lionel-Messi.jpg"
+                                    class="card-img-top img-fluid" alt="...">
+                                <div class="card-body px-5 p-xxl-5 px-sm-3 mb-xxl-0 mb-3">
+                                    <h5 class="card-title h4 mb-3 text-capitalize player-name">Lionel Messi</h5>
+                                    <div class="d-flex justify-content-evenly">
+                                        <p>36 Goals</p>
+                                        <p>
+                                            <li>120 Assist</li>
+                                        </p>
+                                    </div>
+                                    <button id="select" onclick="selectPlayers(this)"
+                                        class="bg-primary btn text-white w-100 rounded-1 py-2 px-3">Select</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- PLAYERS 2 -->
+                        <div class="col-4 col-md-6 mb-5 col-sm-6 col-lg-4 col-md-4">
+                            <div class="card text-center shadow-lg border-0">
+                                <img src="images/Cristiano-Ronaldo.png"
+                                    class="img-fluid card-img-top" alt="...">
+                                <div class="card-body px-5 p-xxl-5 mb-xxl-0 px-sm-3 mb-3">
+                                    <h5 class="card-title h4 mb-3 text-capitalize player-name">Cristiano Ronaldo</h5>
+                                    <div class="d-flex justify-content-evenly">
+                                        <p>32 Goals</p>
+                                        <p>
+                                            <li>110 Assist</li>
+                                        </p>
+                                    </div>
+                                    <button id="select" onclick="selectPlayers(this)"
+                                        class="bg-primary btn text-white w-100 rounded-1 py-2 px-3">Select</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- PLAYERS 3 -->
+                        <div class="col-4 col-md-6 mb-5 col-sm-6 col-lg-4 col-md-4">
+                            <div class="card text-center shadow-lg border-0">
+                                <img src="images/Neymar.jpg"
+                                    class="card-img-top img-fluid" alt="...">
+                                <div class="card-body px-5 p-xxl-5 mb-xxl-0 px-sm-3 mb-3">
+                                    <h5 class="card-title h4 mb-3 text-capitalize player-name">Neymar</h5>
+                                    <div class="d-flex justify-content-evenly">
+                                        <p>30 Goals</p>
+                                        <p>
+                                            <li>115 Assist</li>
+                                        </p>
+                                    </div>
+                                    <button id="select" onclick="selectPlayers(this)"
+                                        class="bg-primary btn text-white w-100 rounded-1 py-2 px-3">Select</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- PLAYERS 4 -->
+                        <div class="col-4 col-md-6 mb-5 col-sm-6 col-lg-4 col-md-4">
+                            <div class="card text-center shadow-lg border-0">
+                                <img src="images/Kylian-Mbappé.png"
+                                    class="card-img-top img-fluid" alt="...">
+                                <div class="card-body p-xxl-5 mb-xxl-0 px-5 px-sm-3 mb-3">
+                                    <h5 class="card-title h4 mb-3 text-capitalize player-name">Kylian Mbappé </h5>
+                                    <div class="d-flex justify-content-evenly">
+                                        <p>28 Goals</p>
+                                        <p>
+                                            <li>100 Assist</li>
+                                        </p>
+                                    </div>
+                                    <button id="select" onclick="selectPlayers(this)"
+                                        class="bg-primary btn text-white w-100 rounded-1 py-2 px-3">Select</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- PLAYERS 5 -->
+                        <div class="col-4 mb-5 col-md-6 col-sm-6 col-lg-4 col-md-4">
+                            <div class="card text-center shadow-lg border-0">
+                                <img src="images/Mohamed-Salah.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body p-xxl-5 mb-xxl-0 px-5 px-sm-3 mb-3">
+                                    <h5 class="card-title h4 mb-3 text-capitalize player-name">Mohamed Salah</h5>
+                                    <div class="d-flex justify-content-evenly">
+                                        <p>28 Goals</p>
+                                        <p>
+                                            <li>90 Assist</li>
+                                        </p>
+                                    </div>
+                                    <button id="select" onclick="selectPlayers(this)"
+                                        class="bg-primary btn text-white w-100 rounded-1 py-2 px-3">Select</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- PLAYERS 6 -->
+                        <div class="col-4 col-md-6 mb-5 col-sm-6 col-lg-4 col-md-4">
+                            <div class="card text-center shadow-lg border-0">
+                                <img src="images/Zlatan.jpg"
+                                    class="card-img-top img-fluid" alt="...">
+                                <div class="card-body p-xxl-5 mb-xxl-0 px-5 px-sm-3 mb-3">
+                                    <h5 class="card-title h4 mb-3 text-capitalize player-name">Zlatan</h5>
+                                    <div class="d-flex justify-content-evenly">
+                                        <p>25 Goals</p>
+                                        <p>
+                                            <li>85 Assist</li>
+                                        </p>
+                                    </div>
+                                    <button id="select" onclick="selectPlayers(this)"
+                                        class="bg-primary btn text-white w-100 rounded-1 py-2 px-3">Select</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- PLAYERS 7 -->
+                        <div class="col-4 col-md-6 mb-5 col-sm-6 col-lg-4 col-md-4">
+                            <div class="card text-center shadow-lg border-0">
+                                <img src="images/Sergio-Ramos.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body p-xxl-5 mb-xxl-0 px-5 px-sm-3 mb-3">
+                                    <h5 class="card-title h4 mb-3 text-capitalize player-name">sergio ramos</h5>
+                                    <div class="d-flex justify-content-evenly">
+                                        <p>19 Goals</p>
+                                        <p>
+                                            <li>70 Assist</li>
+                                        </p>
+                                    </div>
+                                    <button id="select" onclick="selectPlayers(this)"
+                                        class="bg-primary btn text-white w-100 rounded-1 py-2 px-3">Select</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- PLAYERS 8 -->
+                        <div class="col-4 col-md-6 mb-5 col-sm-6 col-lg-4 col-md-4">
+                            <div class="card text-center shadow-lg border-0">
+                                <img src="images/Sergio-Agüero.jpg"
+                                    class="card-img-top img-fluid" alt="...">
+                                <div class="card-body p-xxl-5 mb-xxl-0 px-5 px-sm-3 mb-3">
+                                    <h5 class="card-title h4 mb-3 text-capitalize player-name">Sergio Agüero</h5>
+                                    <div class="d-flex justify-content-evenly">
+                                        <p>15 Goals</p>
+                                        <p>
+                                            <li>60 Assist</li>
+                                        </p>
+                                    </div>
+                                    <button id="select" onclick="selectPlayers(this)"
+                                        class="bg-primary btn text-white w-100 rounded-1 py-2 px-3">Select</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- PLAYERS 9 -->
+                        <div class="col-4 col-md-6 mb-5 col-sm-6 col-lg-4 col-md-4">
+                            <div class="card text-center shadow-lg border-0">
+                                <img src="images/Luka-Modrić.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body p-xxl-5 mb-xxl-0 px-5 px-sm-3 mb-3">
+                                    <h5 class="card-title h4 mb-3 text-capitalize player-name">Luka Modrić</h5>
+                                    <div class="d-flex justify-content-evenly">
+                                        <p>10 Goals</p>
+                                        <p>
+                                            <li>70 Assist</li>
+                                        </p>
+                                    </div>
+                                    <button id="select" onclick="selectPlayers(this)"
+                                        class="bg-primary btn text-white w-100 rounded-1 py-2 px-3">Select</button>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
+                </div> 
+
+                <!-- CALCULATE EXPENSES -->
+                <div class="col-3 col-md-4 col-lg-3 col-sm-12">
+
+                    <div class="row">
+                        <!-- SELECETED PLAYERS AREA  -->
+                    <div class="shadow-lg col-md-12 col-sm-6 col-lg-12 p-5 p-md-3 mb-5 slect-player-bg rounded-1 shadow-lg">
+                        <h2 class="text-center my-5 text-white">Selected - V</h2>
+                        <table class="table text-white">
+                            <tbody id="player-table">
+                                <tr>
+                                    <!-- <td>Jacob</td>
+                                    <td>Thornton</td> -->
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- BUDGET AREA  -->
+                    <div class="shadow-lg p-4 p-md-3 col-md-12 mb-5 col-lg-12 col-sm-6 slect-player-bg rounded-1 shadow-lg text-white">
+                        <h2 class="text-center my-4">Budget</h2> 
+                  
+                        <div class="text-center"> 
+
+                            <!-- PER PLAYER  -->
+                            <div class="mb-3 d-flex justify-content-evenly align-items-center">
+                                <label for="per-player" class="form-label h6">Per Player</label>
+                                <input type="text" class="form-control w-50 rounded-0" id="per-player">
+                            </div>
+
+                            <!-- PER PLAYER CALCULATE BUTTON  -->
+                            <button id="per-player-clculate-btn" class="bg-primary btn text-white w-100 rounded-1 py-2 px-3 border-0" disabled>Calculate</button>
+
+                            <P class="h5 my-4">Player Expenses $<span id="player-expenses">0.00</span></P>
+
+
+                            <!-- MANAGER  -->
+                            <div class="mb-3 d-flex justify-content-evenly align-items-center">
+                                <label for="manager" class="form-label h6">Manager</label>
+                                <input type="text" class="form-control w-50 rounded-0" id="manager">
+                            </div>
+
+                            <!-- COACH  -->
+                            <div class="mb-3 d-flex justify-content-evenly align-items-center">
+                                <label for="coach" class="form-label h6">Coach &nbsp; &nbsp;</label>
+                                <input type="text" class="form-control w-50 rounded-0" id="coach">
+                            </div>
+
+
+                            <!-- CALCULATE TOTAL -->
+                            <button id="calculate-total" class="bg-primary btn text-white w-100 rounded-1 py-2 px-3 border-0 my-2" disabled>Total Calculate</button>
+
+                            <!-- TOTAL  -->
+                            <div class="d-flex justify-content-between h6 mt-3">
+                                <p class="h3">Total</p>
+                                <p class="text-white h3">$<span id="total">0.00</span></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER SECTION  -->
+    <footer class="py-5">
+        <div class="container-fluid text-center">
+            <img class="img-fluid" src="images/FC_Barcelona.png" alt="">
+
+            <div class="social text-center">
+                <ul class="d-flex justify-content-center mt-3">
+                    <li class="m-3"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="m-3"><a href="#"><i class="fa-brands fa-twitter"></i></i></a></li>
+                    <li class="m-3"><a href="#"><i class="fa-brands fa-square-instagram"></i></i></a></li>
+                    <li class="m-3"><a href="#"></i><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CUSTOM CSS  -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
